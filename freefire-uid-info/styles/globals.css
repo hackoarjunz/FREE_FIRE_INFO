@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Developer badge animation */
+.developer-badge{background:linear-gradient(90deg,#111827,#0b1220);padding:10px;border-radius:14px;}
+@keyframes nameWave{0%{transform:translateY(0)}50%{transform:translateY(-6px)}100%{transform:translateY(0)}}
+.developer-name{display:inline-block;animation:nameWave 1.6s ease-in-out infinite}
